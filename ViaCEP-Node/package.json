@@ -1,0 +1,14 @@
+{
+  "name": "location",
+  "version": "1.0.0",
+  "description": "Serviço de localização",
+  "main": "index.js",
+  "scripts": {
+    "start": "supervisor index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "request": "^2.87.0",
+    "supervisor": "^0.12.0"
+  }
+}
